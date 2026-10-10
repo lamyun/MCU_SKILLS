@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU Continuous Improvement"
+  short_description: "Turn MCU run evidence into regression-tested improvements"
+  default_prompt: "Use $mcu-continuous-improvement to structure this MCU run, capture evidence-backed improvement candidates, and promote only regression-verified reusable changes."

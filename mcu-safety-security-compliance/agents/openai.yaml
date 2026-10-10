@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 安全合规"
+  short_description: "MCU 与遥测安全合规"
+  default_prompt: "使用 $mcu-safety-security-compliance 评审 MCU 安全，以及不可信 PC 命令、遥测隐私、保留、回放和证据风险。"

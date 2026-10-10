@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 固件开发"
+  short_description: "多厂商、多系列 MCU 裸机、RTOS 与框架固件开发"
+  default_prompt: "使用 $mcu-firmware-development 从项目输入解析 MCU 目标，并按需创建受控的裸机、RTOS 或厂商框架固件。"

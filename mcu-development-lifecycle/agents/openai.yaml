@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 生命周期管理"
+  short_description: "多厂商、多系列 MCU 全生命周期、数据与发布门禁"
+  default_prompt: "使用 $mcu-development-lifecycle 从项目输入解析 MCU 目标，并端到端治理固件、MCU-PC 数据流、并行 lane、证据等级和发布门禁。"

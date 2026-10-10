@@ -1,0 +1,38 @@
+schema_version: "mcu-project-directory-policy.v1"
+analysis_domains:
+  - "00-intake"
+  - "10-requirements"
+  - "20-architecture"
+  - "30-hardware"
+  - "40-firmware"
+  - "50-host-dataflow"
+  - "60-verification"
+  - "70-safety-security"
+  - "80-release"
+  - "90-retrospective"
+project_roots:
+  - analysis
+  - host
+  - tools
+  - tests
+  - configuration
+  - governance
+  - evidence
+  - reports
+run_roots:
+  - context
+  - analysis
+  - build
+  - tests
+  - telemetry
+  - hardware
+  - evidence
+  - reports
+  - improvements
+  - handoff
+rules:
+  preserve_existing_layout: true
+  move_existing_files_automatically: false
+  lane_private_mutable_outputs: true
+  raw_evidence_immutable: true
+  project_facts_must_not_enter_skill: true

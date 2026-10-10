@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU CI 工具链"
+  short_description: "多厂商、多系列 MCU 工具链、可复现构建与 CI 自动化"
+  default_prompt: "使用 $mcu-ci-toolchain 从项目输入解析 MCU 目标，自动发现匹配环境、隔离 lane 构建并生成可复现 CI 证据。"

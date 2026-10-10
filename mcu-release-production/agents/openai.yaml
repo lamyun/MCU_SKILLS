@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 发布量产"
+  short_description: "固件与 PC 数据工具发布"
+  default_prompt: "使用 $mcu-release-production 发布兼容的固件、协议 schema、collector、SQLite migration、replay tool 和量产资产。"

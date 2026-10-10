@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 芯片手册提取"
+  short_description: "提取并双验证 MCU PDF 工程事实"
+  default_prompt: "使用 $mcu-datasheet-extraction 提取 MCU 事实，并通过本地 Poppler 与 Codex PDF 视觉复核双验证每份 PDF。"

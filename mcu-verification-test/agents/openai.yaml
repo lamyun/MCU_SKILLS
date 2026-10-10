@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 验证测试"
+  short_description: "MCU、Host 数据、回放与 HIL 测试"
+  default_prompt: "使用 $mcu-verification-test 分级验证 CubeMX 漂移、协议、重连/背压、JSONL/SQLite 回放、target 和真实 HIL。"

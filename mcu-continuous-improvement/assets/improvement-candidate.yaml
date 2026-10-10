@@ -1,0 +1,28 @@
+schema_version: "mcu-improvement-candidate.v1"
+candidate_id: "IMP-001"
+correlation:
+  workspace_id: "WS-001"
+  lane_id: "firmware"
+  change_id: "CHG-001"
+  variant_id: "board-a"
+  run_id: "RUN-001"
+layer: "mcp"
+category: "false-pass"
+severity: "high"
+affected_component: "<source-package-or-project-component>"
+observation: "<actual behavior>"
+expected_behavior: "<required behavior>"
+reproduction: "<bounded reproducible procedure>"
+proposed_change: "<narrow generalized change>"
+regression_test: "<test that fails before the fix>"
+evidence:
+  - path: "evidence/<file>"
+    sha256: "<64-hex>"
+rollback: "<rollback path or source hash>"
+owner: "<controlled-owner>"
+status: "observed"
+transition_policy:
+  ordered_states: ["observed", "reproduced", "regression-added", "implemented", "validated", "promoted"]
+  transition_id: "ITR-001"
+  maximum_automatic_attempts: 3
+  immutable_event_ledger: true

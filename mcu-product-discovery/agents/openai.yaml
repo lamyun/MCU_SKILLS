@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 产品发现"
+  short_description: "市场对标、用户场景、MVP 范围、方案选型与需求落地"
+  default_prompt: "使用 $mcu-product-discovery 将产品创意转成经过市场对标的 MCU 需求和 MVP 范围。"

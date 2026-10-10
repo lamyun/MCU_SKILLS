@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU 硬件 Bring-up"
+  short_description: "板级 Bring-up 与 PC 传输链路"
+  default_prompt: "使用 $mcu-hardware-bringup 评审 MCU 硬件、保留 SWD，并验证到 PC 的 UART/USB/VCP 链路。"

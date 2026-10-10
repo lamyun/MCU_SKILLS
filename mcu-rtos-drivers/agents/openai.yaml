@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCU RTOS 与驱动"
+  short_description: "RTOS、驱动与 MCU-PC 遥测"
+  default_prompt: "使用 $mcu-rtos-drivers 按项目声明的 RTOS identity 设计任务、ISR/DMA、遥测、PC collector、持久化和回放。"
